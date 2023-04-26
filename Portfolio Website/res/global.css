@@ -107,14 +107,14 @@ div.text_image{
 	--padding:4vw;
 }
 
-div.text_image{max-width:1200px; min-height:80vh; margin:0; display:grid; grid-template-columns: 3fr 1.5fr; grid-gap:var(--padding); padding:var(--padding);
+div.text_image{; min-height:80vh; margin:0; display:grid; grid-template-columns: 3fr 1.5fr; grid-gap:var(--padding); padding:var(--padding);
 }
 div.text_bottom{max-width:1200px; min-height:40vh; margin: auto; grid-gap:var(--padding);
 }
 div.text_image img{width:100%; max-height:80vh; object-fit:contain; margin-bottom:var(--padding); }
 div.text_image div.txt{justify-self:center; align-self:start; max-width:65ch;padding-top: 3vw}
 div.text_image div.txt.span3{grid-column-start: 1; grid-column-end:4; justify-self:start; }
-div.text_image div.txt.span2{grid-column-start: 1; grid-column-end:4; justify-self:start; }
+div.text_image div.txt.span2{grid-column-start: 1; grid-column-end:3; justify-self:start; }
 div.text_image div.txt.span4{grid-column-start: 1; grid-column-end:4; justify-self:start; }
 div.text_bottom div.txt.span5{grid-column-start: 1; grid-column-end:4; justify-self:start; }
 
@@ -133,7 +133,7 @@ div.text_bottom.col5{grid-template-columns: 1fr ;}
 }
 
 div.cards{max-width:1200px; margin:0 auto;
-	display:grid; grid-template-columns: repeat(auto-fill,minmax(172px,1fr)); grid-gap:4vw; padding:4vw;
+	display:grid; grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); grid-gap:4vw; padding:0vw;
 }
 
 div.cards div.card{}
